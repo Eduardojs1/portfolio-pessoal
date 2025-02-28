@@ -8,12 +8,10 @@ export function Header() {
     <header className="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-gray-800">Dev Edu </h1>
+          <h1 className="text-2xl font-bold text-gray-800">🌍</h1>
           
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <a href="#sobre" className="text-gray-600 hover:text-gray-900">Sobre</a>
-            {/* <a href="#projetos" className="text-gray-600 hover:text-gray-900">Projetos</a> */}
             <a href="#skills" className="text-gray-600 hover:text-gray-900">Habilidades</a>
             <a href="#contato" className="text-gray-600 hover:text-gray-900">Contato</a>
           </nav>
@@ -30,7 +28,6 @@ export function Header() {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
           <button 
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -38,8 +35,7 @@ export function Header() {
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
-
-        {/* Mobile Navigation */}
+        
         {isMenuOpen && (
           <nav className="md:hidden pt-4 pb-2">
             <div className="flex flex-col gap-4">

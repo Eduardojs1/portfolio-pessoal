@@ -9,7 +9,6 @@ export function Contact() {
           </h2>
 
           <div className="flex flex-col items-center space-y-12">
-            {/* Informações de Contato */}
             <div className="bg-white rounded-lg p-4 shadow-md">
               <div className="flex items-center">
                 <Mail className="text-indigo-600" size={24}/>
@@ -22,7 +21,6 @@ export function Contact() {
               </div>
             </div>
 
-            {/* Localização */}
             <div className="bg-white rounded-lg p-4 shadow-md">
               <div className="flex items-center">
                 <MapPin className="text-indigo-600" size={20}/>

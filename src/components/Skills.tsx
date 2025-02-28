@@ -12,7 +12,7 @@ const skills: Skill[] = [
   },
   {
     category: "Backend",
-    items: ["Python", "Java", "PostgreSQL", "Mysql", "Groovy", "Grails", "Node (Em Aprendizado)"]
+    items: ["Python", "Java", "PostgreSQL", "Mysql", "Groovy", "Grails", "Node.js (Em Aprendizado)"]
   },
   {
     category: "DevOps",
@@ -28,15 +28,15 @@ export function Skills() {
   return (
     <section id="skills" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Habilidades</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <h2 className="text-3xl font-bold text-center mb-12">HABILIDADES</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-">
           {skills.map((skill, index) => (
-            <SkillCard
-              key={index}
-              category={skill.category}
-              items={skill.items}
-              index={index}
-            />
+              <SkillCard
+                  key={index}
+                  category={skill.category}
+                  items={skill.items}
+                  index={index}
+              />
           ))}
         </div>
       </div>
