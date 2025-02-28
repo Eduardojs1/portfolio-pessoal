@@ -8,8 +8,11 @@ export function Header() {
     <header className="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-gray-800">🌍</h1>
-          
+          <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="noopener noreferrer">
+            <h1 className="text-2xl font-bold text-gray-800">🌍</h1>
+          </a>
+
+
           <nav className="hidden md:flex items-center gap-8">
             <a href="#sobre" className="text-gray-600 hover:text-gray-900">Sobre</a>
             <a href="#skills" className="text-gray-600 hover:text-gray-900">Habilidades</a>
