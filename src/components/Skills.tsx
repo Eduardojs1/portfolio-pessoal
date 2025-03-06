@@ -8,7 +8,7 @@ interface Skill {
 const skills: Skill[] = [
   {
     category: "Frontend",
-    items: ["JS (Em Apendizado)", "HTML-CSS", "Tailwind (Em Aprendizado)", "CSS (Tw & Html)", "JSF & JSP"]
+    items: ["JS (Em Apendizado)", "TS (Em Aprendizado", "HTML-CSS", "Tailwind (Em Aprendizado)", "CSS (Tw & Html)", "JSF & JSP"]
   },
   {
     category: "Backend",
