@@ -8,7 +8,7 @@ export function Header() {
     <header className="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="noopener noreferrer">
+          <a href="https://portfolio-edudev.vercel.app/" target="_blank" rel="noopener noreferrer">
             <h1 className="text-2xl font-bold text-gray-800">🌍</h1>
           </a>
 
